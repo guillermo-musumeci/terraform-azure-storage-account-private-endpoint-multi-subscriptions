@@ -2,6 +2,8 @@
 
 The code is used to provision a central "core" and customer subscriptions.
 
+![Diagram](Azure-Storage-Account-Private-Endpoint.png)
+
 ## Core Subscription
 
 The core subscription will contain the private DNS zones for all subscriptions.
@@ -51,4 +53,6 @@ If you don't enable public access or your firewall block the traffic to Azure, y
 ```
 
 The code will get your public IP address and add it to the whitelist automatically.
+
+
 
